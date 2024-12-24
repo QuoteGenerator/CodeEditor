@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const output = document.getElementById("output");
 
         let content = `
-        
             ${htmlCode}
             <style> body{color: white;} ${cssCode}</style>
             <script>${jsCode}<\/script>
