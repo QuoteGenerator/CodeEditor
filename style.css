@@ -82,3 +82,21 @@ label:hover {
     color: #f5f5f5;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
+
+#runButton{
+    width: 100px;
+    height: 40px;
+    background-color: #262626;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+#runButton:hover {
+    background-color: #333333;
+    border-color: #00bcd4;
+    cursor: pointer;
+}

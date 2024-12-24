@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
+
+    const runButton = document.getElementById("runButton")
+
+    runButton.addEventListener("mousedown",run);
+
     function run() {
         const htmlCode = document.getElementById("html").value;
         const cssCode = document.getElementById("css").value;
@@ -18,8 +23,4 @@ document.addEventListener("DOMContentLoaded", function () {
         output.contentDocument.write(content);
         output.contentDocument.close();
     }
-
-    document.getElementById("html").addEventListener("keyup", run);
-    document.getElementById("css").addEventListener("keyup", run);
-    document.getElementById("javascript").addEventListener("keyup", run);
 });
